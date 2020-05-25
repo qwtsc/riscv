@@ -14,7 +14,7 @@
 //! - Access to core registers like `mstatus` or `mcause`.
 //! - Interrupt manipulation mechanisms.
 //! - Wrappers around assembly instructions like `WFI`.
-
+#![feature(llvm_asm)]
 #![no_std]
 #![deny(warnings)]
 #![feature(nll)]
